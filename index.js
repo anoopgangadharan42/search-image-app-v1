@@ -32,10 +32,17 @@ results.map((result)=>{
    imagelink.appendChild(image);
    searchResultsE1.appendChild(imagelink);
 })
+ showMorebutton.style.display ="block";
 }
 formE1.addEventListener("submit",(e)=>{
   e.preventDefault();
   page=1;
   searchImages();
   
+})
+
+showMorebutton.addEventListener("click",()=>{
+  page++;
+  searchImages();
+
 })

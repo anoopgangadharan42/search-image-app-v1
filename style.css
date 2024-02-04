@@ -90,6 +90,7 @@ form{
   border-radius: 5px;
   cursor: pointer;
   transition: background-color .3s ease-in-out;
+  display: none;
 }
 #show-more-button:hover{
     background-color: #0077b5;
